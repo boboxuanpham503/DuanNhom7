@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Danh sách phòng</title>
+    <link rel="icon" type="img/png" href="image/pngtree-wolf-silhouette-e-sports-logo-design-png-image_5093367.jpg">
+    <link rel="stylesheet" href="Danh-sach-phong.css">
+</head>
+<body>
+    <div class="container">
+        <div class="room-card">
+            <img src="image/phong-cao-cap-giuong-don-1-8184.jpg" 
+            alt="Phòng đơn"
+            data-gallery="image/anh-phong-don/N1_8900-Copy.jpg|image/anh-phong-don/N1_8908-Copy.jpg">
+            <div class="room-info">
+                <h2>Phòng đơn</h2>
+                <p>Phòng Superior City View rộng rãi với diện tích 24m2 - 30m2, phù hợp với gia đình đi nghỉ dưỡng.</p>
+                <p class="price">1.500.000 VND / đêm</p>
+            </div>
+            <button type="submit" class="sbt">Đăng ký phòng</button>
+        </div>
+        
+        <div class="room-card">
+            <img src="image/mau-thiet-ke-noi-that-phong-2-giuong-don-ben-trong-khach-san-3-4-5-sao-2.jpg" 
+            alt="Phòng đôi"
+            data-gallery="image/anh-phong-doi/N1_8893-Copy.jpg|image/anh-phong-doi/N1_8921-Copy.jpg">
+            <div class="room-info">
+                <h2>Phòng đôi</h2>
+                <p>Phòng Twin hoặc Double với phong cách sang trọng, ghế sofa màu trắng lịch sự, nhã nhặn.</p>
+                <p class="price">2.000.000 VND / đêm</p>
+            </div>
+            <button type="submit" class="sbt">Đăng ký phòng</button>
+        </div>
+    </div>
+    <script>
+        document.querySelectorAll(".sbt").forEach(button =>{
+            button.addEventListener("click", function(){
+                window.location.href = "thong-tin-dat-phong.html"
+            })
+        })
+    </script>
+    <script src="danh-sach-phong.js"></script>
+</body>
+</html>
