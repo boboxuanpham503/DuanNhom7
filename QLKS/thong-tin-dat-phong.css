@@ -1,5 +1,5 @@
 body{
-    background-image: url("image/biet-thu-bien-vinpearl-resort-spa-nha-trang-bay-1.jpg");
+    background-image: url("image/pexels-pixabay-258154.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body{
     height: 100vh;
 }
 .container {
-    background: #fff;
+    background: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
